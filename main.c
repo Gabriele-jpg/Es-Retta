@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int Retta (float x, float m, float y, float q) {
-    return y == (x + m + q);
+    return y == (x * m + q);
 }
 
 int main(void) {
